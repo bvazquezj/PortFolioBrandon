@@ -31,7 +31,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
             className=" bg-red-800 text-lg text-white w-32 px-5 py-3 rounded-3xl hover:bg-red-950 transition duration-300"
-            onClick={() => {document.getElementById('proyectos').scrollIntoView({behavior: 'smooth'})}}
+            onClick={() => { document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' }) }}
           >
             Proyectos
           </motion.button>
@@ -42,13 +42,13 @@ const Hero = () => {
           />
         </div> */}
         <div className='flex flex-col gap-5 items-center justify-center'>
-          <a href="https://github.com/bvazquezj" className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
+          <a href="https://github.com/bvazquezj" target='_blank' className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
             <FaGithub size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/bvazquezj/" className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
+          <a href="https://www.linkedin.com/in/bvazquezj/" target='_blank' className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://x.com/bvazquezj" className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
+          <a href="https://x.com/bvazquezj" target='_blank' className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
             <FaTwitter size={24} />
           </a>
           <a href="mailto:bvazquezj@gmail.com" target='_blank' className="rounded-3xl hover:text-red-800 hover:bg-black p-2 transition duration-300">
