@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
-
+import BranImage from '../images/BranImage.jpg';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <Link to="home" smooth={true} duration={500} className="flex justify-center items-center gap-2 text-xl font-bold cursor-pointer">
-            <img src="src\images\BranImage.jpg" alt="Profile" className="rounded-full mx-auto size-12"/> <span>-</span> <h2>Brandon Vázquez</h2>
+            <img src={BranImage} alt="Profile" className="rounded-full mx-auto size-12"/> <span>-</span> <h2>Brandon Vázquez</h2>
             </Link>
           </motion.div>
 

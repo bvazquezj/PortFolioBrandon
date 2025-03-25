@@ -3,6 +3,7 @@ import * as Icons from 'react-icons/fa';
 import * as Bi from 'react-icons/bi';
 import * as Si from 'react-icons/si';
 import skill from '../data/skills';
+import BranImage from '../images/BranImage.jpg';
 
 const About = () => {
   
@@ -25,7 +26,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="md:w-1/2 mb-8 md:mb-0"
           >
-            <img src="src\images\BranImage.jpg" alt="Profile" className="rounded-full mx-auto size-96" />
+            <img src={BranImage} alt="Profile" className="rounded-full mx-auto size-96" />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 100 }}

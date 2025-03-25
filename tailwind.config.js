@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/circuit-board.svg')",
+        'hero-pattern': "url('/assets/circuit-board.svg')",
       }
     },
   },
