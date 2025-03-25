@@ -36,7 +36,7 @@ const About = () => {
             className="md:w-1/2"
           >
             <p className="text-lg mb-6">
-              Estudiante de último año de Ingeniería en Informática con sólida experiencia en proyectos académicos y personales. Especializado en desarrollo backend con tecnologías como Spring Boot y APIs RESTful, y frontend con ReactJS. Busco aplicar mis habilidades técnicas en un entorno profesional para seguir creciendo como desarrollador de software.
+              Estudiante multidisciplinario de ultimo semestre de Ingeniería en Informática con sólida experiencia en proyectos académicos y personales. Especializado en desarrollo backend con tecnologías como Spring Boot y APIs RESTful, y frontend con ReactJS. Busco aplicar mis habilidades técnicas en un entorno profesional para seguir creciendo como desarrollador de software.
             </p>
             <h3 className="text-xl font-semibold mb-4">Mis habilidades:</h3>
             <div className="flex flex-wrap">

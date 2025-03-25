@@ -13,15 +13,15 @@ const skill = [
     },
     {
         id: 2,
-        name: 'TailwindCSS',
-        icon: 'BiLogoTailwindCss',
-        color: 'bg-teal-300',
-    },
-    {
-        id: 3,
         name: 'JavaScript',
         icon: 'FaJs',
         color: 'bg-amber-300',
+    },
+    {
+        id: 3,
+        name: 'TailwindCSS',
+        icon: 'BiLogoTailwindCss',
+        color: 'bg-teal-300',
     },
     {
         id: 4,
