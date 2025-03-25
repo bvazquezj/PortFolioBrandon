@@ -14,7 +14,7 @@ const Footer = () => {
         transition={{ duration: 0.5 }}
         className="mb-4 md:mb-0 text-center md:text-left"
         >
-        <p className="text-sm">&copy; 2025 Mi portafolio.</p>
+        <p className="text-sm">&copy;Vazquez Juarez Brandon - 2025 <br />Mi portafolio.</p>
         <div className="flex flex-col md:flex-row md:space-x-4 mt-2">
           <Link
           to="inicio"
