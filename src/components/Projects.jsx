@@ -2,9 +2,8 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import ProjectDetails from './ProjectDetails';
 import projects from '../data/projects';
-const Projects = () => {
-  
 
+const Projects = () => {
   const [viewProject, setViewProject] = useState(false);
   const [project, setProject] = useState(projects[0]);
   const [clickPosition, setClickPosition] = useState({ x: 0, y: 0 });
