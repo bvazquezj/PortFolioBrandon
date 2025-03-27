@@ -18,7 +18,7 @@ const projects = [
       empresa: 'Hackathon - CANACINTRA',
       fecha: 'septiembre 2024',
       tecnologias: 'React, SpringBoot, TailwindCSS, IA, GitHub',
-      longdesc: 'Se desarrolló una plataforma innovadora de cursos de cocina en línea llamada OnlyChefs, diseñada para conectar a chefs profesionales y entusiastas de la gastronomía con una audiencia global. La plataforma permite a los usuarios acceder a una amplia variedad de cursos estructurados, desde técnicas básicas hasta especializaciones avanzadas en diversas cocinas del mundo.',
+      longdesc: 'Durante mi participación en el Hackathon CANACINTRA, desarrollamos una aplicación web que analiza comentarios de YouTube para determinar emociones y sentimientos. Esta aplicación fue desarrollada en ReactJS y SpringBoot, utilizando una IA para analizar los comentarios y determinar el porcentaje de emociones.',
       link: 'https://port-folio-brandon.vercel.app/'
     },
     {
